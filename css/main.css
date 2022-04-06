@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
-  font-family: 'Georgia'
-  line-height: 1.5rem;
+  font-family: 'Georgia';
+  line-height: 1;
   background-color: #f5f2f0;
 }
 
@@ -22,8 +22,8 @@ img {
 }
 
 h1, h2 {
-  font-family: 'Denk One';
   color: #623b0c;
+  font-family: 'Denk One';
 }
 
 h1 {
