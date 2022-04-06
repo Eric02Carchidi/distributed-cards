@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: 'Georgia';
-  line-height: 1;
+  line-height: 1.5;
   background-color: #f5f2f0;
 }
 
@@ -23,7 +23,7 @@ img {
 
 h1, h2 {
   color: #623b0c;
-  font-family: 'Denk One';
+  font-family: Denk One;
 }
 
 h1 {
@@ -34,18 +34,17 @@ h2 {
   margin: 0 0 1.5rem;
 }
 
-
 ol {
   display: grid;
   margin: 1.5rem;
   padding: 1rem;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 1rem;
 }
 
 li {
-  background-color: #fff;
-  border: 2px solid #ede3db;
+  background-color: #ede3db;
+  border: 2px solid #623b0c;
   border-radius: 8px;
   padding: 1rem;
   display: flex;
@@ -59,10 +58,9 @@ p {
 
 section a {
   font-size: 1.125rem;
-  background-color: #ede3db;
   color: #000;
   text-decoration: none;
-  margin: 1.5rem 0 0 0;
+  margin: 1.5rem 0 0;
   padding: .75em;
   text-align: center;
   border-radius: 10px;
