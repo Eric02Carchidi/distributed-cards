@@ -13,7 +13,7 @@ html {
 
 body {
   margin: 0;
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 img {
@@ -37,7 +37,7 @@ h2 {
 ol {
   display: grid;
   margin: 1.5rem;
-  padding: 1rem;
+  padding: .5em;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
 }
@@ -46,7 +46,7 @@ li {
   background-color: #ede3db;
   border: 2px solid #623b0c;
   border-radius: 8px;
-  padding: 1rem;
+  padding: .5em;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -56,14 +56,13 @@ p {
   margin: 0 0 auto;
 }
 
-section a {
-  font-size: 1.125rem;
-  color: #000;
+a {
+  background-color: #623b0c;
+  color: #fff;
   text-decoration: none;
   margin: 1.5rem 0 0;
-  padding: .75em;
-  text-align: center;
-  border-radius: 10px;
+  padding: .5em;
+  border-radius: 8px;
 }
 
 section a:hover {
